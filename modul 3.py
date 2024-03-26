@@ -7,6 +7,7 @@ for i in range (total_angka // angka_perbaris) :
         
         if counter % 4 == 0 :
             print("DOR",end=" ")
+        else:
             print(counter,end=" ")
         counter += 1
     print()
