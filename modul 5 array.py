@@ -5,8 +5,8 @@ print("---------------------")
 nilai_x = list(range(-10, 11))
 nilai_f = []
 
-print("| x   | f(x)   |")
-print("|-----|--------|")
+print("| x  | f(x)  |")
+print("|----|-------|")
 for x in nilai_x:
     if x > 0:
         fx = x**2 + 2*x
@@ -15,4 +15,4 @@ for x in nilai_x:
     else:
         fx = 10
     nilai_f.append(fx)
-    print(f"| {x} |{fx:.3f}|")
+    print(f"| {x:3} |{fx:7.3f}|")
