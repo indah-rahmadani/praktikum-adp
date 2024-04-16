@@ -15,4 +15,4 @@ for x in nilai_x:
     else:
         fx = 10
     nilai_f.append(fx)
-    print(f"| {x} |{fx:.2f}|")
+    print(f"| {x} |{fx:.3f}|")
